@@ -1,0 +1,27 @@
+/* seccion3 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f8f9fa;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff;
+}
+
+.stat h2 {
+    color: #6aa84f;
+    font-size: 42px;
+    margin: 0;
+}
+
+.stat p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 15px;
+}
+/*seccion3*/
