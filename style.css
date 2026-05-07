@@ -49,7 +49,7 @@ body{
   font-weight: bold;
   cursor: pointer;
 }
-/*seccion2*/
+/*seeccion2*/
 .hero{
   width: 100%;
   min-height: 85vh;
@@ -114,5 +114,25 @@ left: -64px;
   width: 470px;
   position: relative;
   z-index: 2;
+}/*seccion2*/
+/*seccion3*/
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff;
 }
-/*seccion2*/
+
+.stat h2 {
+    color: #6aa84f;
+    font-size: 42px;
+    margin: 0;
+}
+
+.stat p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 15px;
+}
+/*seccion3*/
