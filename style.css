@@ -1,4 +1,55 @@
-/* seccion2 */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body{
+  background: #c1ebff;
+}
+.navbar{
+  width: 100%;
+  padding: 25px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+}
+.menu{
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+.menu a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+.nav-buttons{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.login{
+  color: #82e63b;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-buttons button{
+  background: #60a82c;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*seccion2*/
 .hero{
   width: 100%;
   min-height: 85vh;
@@ -52,8 +103,8 @@
   cursor: pointer;
 }
 .hero-image{
-width: 768px;
-height: 350px;
+width: 768;
+height: 500px;
 opacity: 1;
 top: 66px;
 left: -64px;
@@ -64,4 +115,4 @@ left: -64px;
   position: relative;
   z-index: 2;
 }
-/* seccion2 */
+/*seccion2*/
